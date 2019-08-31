@@ -1,0 +1,222 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+body{
+	background-color: #B4E2D8;
+}
+
+.topbar{
+	height: 200px;
+	width: 100%;
+	background-color: white;
+}
+
+.topbar img{
+	height: 200px;
+	width: 100%;
+
+}
+
+.box{
+	height: 150px;
+	width: 400px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	position: relative;
+	top: -180px;
+	background-color: white;
+	opacity: 0.7;
+	padding: auto;
+	border: 2px solid white;
+}
+
+.box h1{
+	font-family: 'Amatic SC', cursive;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	font-size: 65px;
+	color: black;
+}
+
+span{
+	color: #578B93;
+}
+
+h2{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+    color: blue;
+	letter-spacing: 2px;
+}
+
+.login{
+	position: relative;
+	border-radius: 3px;
+	margin-top: 50px;
+	background-color: rgba(255,255,255,0.55);
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 450px;
+}
+
+.login h2{
+	color: black;
+	font-size: 45px;
+	padding-top: 35px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.login h2 span{
+	color: #578B93;
+}
+
+form{
+	text-align: center;
+}
+
+input{
+	height: 32px;
+	width: 200px;
+	border: none;
+	text-align: left;
+	border-bottom: 2px solid #578B93;
+	color: #578B93;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 20px;
+}
+
+input:focus::-webkit-input-placeholder { 
+	color:transparent; 
+}
+
+.error{
+	font-size: 18px;
+	color: red;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.login-button{
+	margin-top: 25px;
+	border: 2px solid #202020;
+	background-color: #080808;
+	height: 40px;
+	width: 200px;
+	border-radius: 3px;
+	color: #578B93;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.formtext{
+	color: #578B93;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 32px;
+	text-align: center;
+}
+
+.signin-button{
+	text-align: center;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	border: 2px solid #202020;
+	background-color: #080808;
+	height: 40px;
+	width: 200px;
+	border-radius: 3px;
+	color: #578B93;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.signinpage-button{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	border: 2px solid #202020;
+	background-color: #080808;
+	height: 40px;
+	width: 200px;
+	border-radius: 3px;
+	color: #578B93;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.signout{
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	border: 2px solid #202020;
+	background-color: #080808;
+	height: 40px;
+	width: 100px;
+	border-radius: 3px;
+	color: #578B93;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+	background-color: #202020;
+	transition-duration: 0.2s;
+}
+
+#welcome{
+	float: left;
+	margin-top: 32px;
+	margin-left: 16px;
+	font-size: 28px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.float{
+	clear: both;
+}
+
+.blogpost input{
+	float: left;
+	border: 2px solid #578B93;
+	margin-left: 16px;
+	height: 100px;
+	width: 500px;
+}
+
+.post{
+	clear: both;
+	float: left;
+	margin-top: 16px;
+	margin-left: 16px;
+	border: 2px solid #202020;
+	background-color: #080808;
+	height: 40px;
+	width: 100px;
+	border-radius: 3px;
+	color: #578B93;
+	font-family: 'Montserrat', sans-serif;
+	clear: both;
+}
+
+.postbox{
+	margin-top: 20px;
+	height: 250px;
+	width: 600px;
+	margin-left: 12px;
+	background-color: rgba(255,255,255,0.5);
+}
+
+.printposts{
+	clear: both;
+	margin-left: 16px;
+	margin-right: 16px;
+	margin-top: 30px;
+	
+	background-color: rgba(255,255,255,0.5);
+}
